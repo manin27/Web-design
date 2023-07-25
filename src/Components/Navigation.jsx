@@ -7,25 +7,25 @@ const Navigation = () => {
         if(window.screen.width >= 1440 && window.screen.height <= 1024)
         {
             window.scrollTo({
-            top: 200,
+            top: 300,
             behavior: 'smooth',
             });
         }
-        if(window.screen.width >= 1024)
+        else if(window.screen.width >= 1024)
         {
             window.scrollTo({
-            top: 200,
+            top: 300,
             behavior: 'smooth',
             });
         }
-        if(window.screen.width >= 1024 && window.screen.height >= 768)
+        else if(window.screen.width >= 1024 && window.screen.height >= 768)
         {
             window.scrollTo({
             top: 300,       
             behavior: 'smooth',
             });
         }
-        if(window.screen.width >= 768 && window.screen.height < 768)
+        else if(window.screen.width >= 768 && window.screen.height < 768)
         {
             window.scrollTo({
             top: 550,       
@@ -62,14 +62,14 @@ const Navigation = () => {
             behavior: 'smooth',
             });
         }
-        if(window.screen.width >= 1024)
+        else if(window.screen.width >= 1024)
         {
             window.scrollTo({
-            top: 300,
+            top: 600,
             behavior: 'smooth',
             });
         }
-        if(window.screen.width >= 768 && window.screen.height <= 768)
+        else if(window.screen.width >= 768 && window.screen.height <= 768)
         {
             window.scrollTo({
             top: 550,
@@ -102,18 +102,18 @@ const Navigation = () => {
         if (window.screen.width >= 1440)
         {
             window.scrollTo({
-            top: 900,
+            top: 1000,
             behavior: 'smooth',
             });
         }
-        if(window.screen.width >= 1024)
+        else if(window.screen.width >= 1024)
         {
             window.scrollTo({
-            top: 300,
+            top: 1000,
             behavior: 'smooth',
             });
         }
-        if(window.screen.width >= 768 && window.screen.height <= 768)
+        else if(window.screen.width >= 768 && window.screen.height <= 768)
         {
             window.scrollTo({
             top: 1100,
